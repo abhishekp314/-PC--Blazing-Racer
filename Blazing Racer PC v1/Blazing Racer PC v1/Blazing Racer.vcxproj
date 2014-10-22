@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ApplicationFramework\d3dApp.cpp" />
+    <ClCompile Include="Blazing Racer.cpp" />
+    <ClCompile Include="Game\GameActors\AnimatedActor.cpp" />
+    <ClCompile Include="Game\GameActors\Car.cpp" />
+    <ClCompile Include="Game\GameActors\IActor.cpp" />
+    <ClCompile Include="Game\GameActors\PhysicsActor.cpp" />
+    <ClCompile Include="Game\GameActors\SimpleActor.cpp" />
+    <ClCompile Include="Game\GameHandler.cpp" />
+    <ClCompile Include="Game\GameStates\ConnectionState.cpp" />
+    <ClCompile Include="Game\GameStates\ConnectionStateClient.cpp" />
+    <ClCompile Include="Game\GameStates\ConnectionStateServer.cpp" />
+    <ClCompile Include="Game\GameStates\EndGameState.cpp" />
+    <ClCompile Include="Game\GameStates\GameOver.cpp" />
+    <ClCompile Include="Game\GameStates\IGameState.cpp" />
+    <ClCompile Include="Game\GameStates\IntroState.cpp" />
+    <ClCompile Include="Game\GameStates\MainMenuState.cpp" />
+    <ClCompile Include="Game\GameStates\NewGameState.cpp" />
+    <ClCompile Include="Game\GameStates\PauseState.cpp" />
+    <ClCompile Include="Game\GameStates\RunningState.cpp" />
+    <ClCompile Include="Game\LevelLoader.cpp" />
+    <ClCompile Include="Game\ParticleContact.cpp" />
+    <ClCompile Include="Game\World.cpp" />
+    <ClCompile Include="Game\XPhysics.cpp" />
+    <ClCompile Include="Graphics\Camera.cpp" />
+    <ClCompile Include="Graphics\IShaders.cpp" />
+    <ClCompile Include="Graphics\XGraphics.cpp" />
+    <ClCompile Include="Graphics\XShader.cpp" />
+    <ClCompile Include="Graphics\XSprite.cpp" />
+    <ClCompile Include="Graphics\XTexShader.cpp" />
+    <ClCompile Include="Input\InputManager.cpp" />
+    <ClCompile Include="Network\DarkNet\Client.cpp" />
+    <ClCompile Include="Network\DarkNet\DarkNetFuncs.cpp" />
+    <ClCompile Include="Network\DarkNet\Log.cpp" />
+    <ClCompile Include="Network\DarkNet\Server.cpp" />
+    <ClCompile Include="Network\NetworkManager.cpp" />
+    <ClCompile Include="Sound\XSound\XSound.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UI\Hud.cpp" />
+    <ClCompile Include="UI\XUserInterface.cpp" />
+    <ClCompile Include="Util\IResource.cpp" />
+    <ClCompile Include="Util\ResourceManager.cpp" />
+    <ClCompile Include="Util\TextFile.cpp" />
+    <ClCompile Include="Util\Texture.cpp" />
+    <ClCompile Include="Util\Util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ApplicationFramework\d3dApp.h" />
+    <ClInclude Include="Game\GameActors\AnimatedActor.h" />
+    <ClInclude Include="Game\GameActors\Car.h" />
+    <ClInclude Include="Game\GameActors\IActor.h" />
+    <ClInclude Include="Game\GameActors\PhysicsActor.h" />
+    <ClInclude Include="Game\GameActors\SimpleActor.h" />
+    <ClInclude Include="Game\GameHandler.h" />
+    <ClInclude Include="Game\GameStates\ConnectionState.h" />
+    <ClInclude Include="Game\GameStates\ConnectionStateClient.h" />
+    <ClInclude Include="Game\GameStates\ConnectionStateServer.h" />
+    <ClInclude Include="Game\GameStates\EndGameState.h" />
+    <ClInclude Include="Game\GameStates\GameOver.h" />
+    <ClInclude Include="Game\GameStates\IGameState.h" />
+    <ClInclude Include="Game\GameStates\IntroState.h" />
+    <ClInclude Include="Game\GameStates\MainMenuState.h" />
+    <ClInclude Include="Game\GameStates\NewGameState.h" />
+    <ClInclude Include="Game\GameStates\PauseState.h" />
+    <ClInclude Include="Game\GameStates\RunningState.h" />
+    <ClInclude Include="Game\LevelLoader.h" />
+    <ClInclude Include="Game\ParticleContact.h" />
+    <ClInclude Include="Game\World.h" />
+    <ClInclude Include="Game\XPhysics.h" />
+    <ClInclude Include="Graphics\Camera.h" />
+    <ClInclude Include="Graphics\IShaders.h" />
+    <ClInclude Include="Graphics\XGraphics.h" />
+    <ClInclude Include="Graphics\XShader.h" />
+    <ClInclude Include="Graphics\XSprite.h" />
+    <ClInclude Include="Graphics\XTexShader.h" />
+    <ClInclude Include="Input\InputManager.h" />
+    <ClInclude Include="Network\DarkNet\Client.h" />
+    <ClInclude Include="Network\DarkNet\DarkNetFuncs.h" />
+    <ClInclude Include="Network\DarkNet\Log.h" />
+    <ClInclude Include="Network\DarkNet\Server.h" />
+    <ClInclude Include="Network\NetworkManager.h" />
+    <ClInclude Include="Sound\XSound\XSound.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="UI\Hud.h" />
+    <ClInclude Include="UI\XUserInterface.h" />
+    <ClInclude Include="Util\IResource.h" />
+    <ClInclude Include="Util\ResourceManager.h" />
+    <ClInclude Include="Util\TextFile.h" />
+    <ClInclude Include="Util\Texture.h" />
+    <ClInclude Include="Util\Util.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Lib\AtgFramework.lib" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2FB2ED8F-2003-4B5F-8E05-180C91FA2E95}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>BlazingRacer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Tinku\Documents\Visual Studio 2013\Projects\Blazing Racer\Blazing Racer;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>dxerr.lib;xinput.lib;d3d9.lib;d3dx9.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

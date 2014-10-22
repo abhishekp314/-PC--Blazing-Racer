@@ -1,0 +1,13 @@
+float4 color : register(c2);
+
+sampler2D ColorTexture : register(s0);
+
+struct PS_IN
+{
+    float2 UV : TEXCOORD0;
+};
+
+float4 main( PS_IN In ) : COLOR
+{
+    return tex2D(ColorTexture, In.UV);
+}

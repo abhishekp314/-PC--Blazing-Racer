@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{6363861b-d11b-4666-9e20-296342a2a6de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameActors">
+      <UniqueIdentifier>{778a997f-9e0e-44ee-bc95-4602b4b386f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\GameStates">
+      <UniqueIdentifier>{658a7a2c-e861-49a1-be37-2e5f5585a5ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{dd0a908e-5eb7-45ad-8e71-57b8101b6306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{8e760240-badf-49d0-86e7-71674a61c37a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lib">
+      <UniqueIdentifier>{a3802141-322a-4bed-a8f1-35b11990e6d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{8281d3cf-83c2-4db0-add3-d9d6faad2690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{6cb60651-2b7e-42f7-9c41-bf3fb083dbf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound\XSound">
+      <UniqueIdentifier>{535661da-27c1-4f2e-bff5-8ac68e8d156a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{09f63727-4160-4454-a3ea-f5c8849225a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{82879b98-8b1d-4c98-b3e6-63e9ce211306}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ApplicationFramework_Win32">
+      <UniqueIdentifier>{2cec39b2-0291-4ab3-8282-888085208514}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network\DarkNet">
+      <UniqueIdentifier>{588d1750-1d2d-4968-ad4a-eb98083dbcb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game\GameHandler.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\LevelLoader.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\ParticleContact.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\World.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\XPhysics.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\GameOver.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\IGameState.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\IntroState.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\MainMenuState.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\NewGameState.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\PauseState.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\RunningState.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\ConnectionState.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\ConnectionStateClient.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\ConnectionStateServer.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameStates\EndGameState.cpp">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameActors\SimpleActor.cpp">
+      <Filter>Source Files\Game\GameActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameActors\AnimatedActor.cpp">
+      <Filter>Source Files\Game\GameActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameActors\Car.cpp">
+      <Filter>Source Files\Game\GameActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameActors\IActor.cpp">
+      <Filter>Source Files\Game\GameActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameActors\PhysicsActor.cpp">
+      <Filter>Source Files\Game\GameActors</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\XSprite.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\XTexShader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\Camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\IShaders.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\XGraphics.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\XShader.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputManager.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkManager.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound\XSound\XSound.cpp">
+      <Filter>Source Files\Sound\XSound</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\XUserInterface.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Hud.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Util.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\IResource.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ResourceManager.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\TextFile.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Texture.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Blazing Racer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ApplicationFramework\d3dApp.cpp">
+      <Filter>Source Files\ApplicationFramework_Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\DarkNet\Log.cpp">
+      <Filter>Source Files\Network\DarkNet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\DarkNet\Server.cpp">
+      <Filter>Source Files\Network\DarkNet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\DarkNet\Client.cpp">
+      <Filter>Source Files\Network\DarkNet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\DarkNet\DarkNetFuncs.cpp">
+      <Filter>Source Files\Network\DarkNet</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\GameHandler.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\LevelLoader.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\ParticleContact.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\World.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\XPhysics.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\GameOver.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\IGameState.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\IntroState.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\MainMenuState.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\NewGameState.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\PauseState.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\RunningState.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\ConnectionState.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\ConnectionStateClient.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\ConnectionStateServer.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameStates\EndGameState.h">
+      <Filter>Source Files\Game\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameActors\PhysicsActor.h">
+      <Filter>Source Files\Game\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameActors\SimpleActor.h">
+      <Filter>Source Files\Game\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameActors\AnimatedActor.h">
+      <Filter>Source Files\Game\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameActors\Car.h">
+      <Filter>Source Files\Game\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameActors\IActor.h">
+      <Filter>Source Files\Game\GameActors</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\XSprite.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\XTexShader.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\Camera.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\IShaders.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\XGraphics.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\XShader.h">
+      <Filter>Source Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputManager.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkManager.h">
+      <Filter>Source Files\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound\XSound\XSound.h">
+      <Filter>Source Files\Sound\XSound</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\XUserInterface.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Hud.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Util.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\IResource.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ResourceManager.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\TextFile.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Texture.h">
+      <Filter>Source Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ApplicationFramework\d3dApp.h">
+      <Filter>Source Files\ApplicationFramework_Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\DarkNet\DarkNetFuncs.h">
+      <Filter>Source Files\Network\DarkNet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\DarkNet\Log.h">
+      <Filter>Source Files\Network\DarkNet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\DarkNet\Server.h">
+      <Filter>Source Files\Network\DarkNet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\DarkNet\Client.h">
+      <Filter>Source Files\Network\DarkNet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Lib\AtgFramework.lib">
+      <Filter>Source Files\Lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

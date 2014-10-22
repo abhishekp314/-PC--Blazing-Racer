@@ -1,0 +1,15 @@
+float4 color : register(c2);
+
+sampler2D ColorTexture : register(s0);
+
+struct PS_IN
+{
+    float2 UV : TEXCOORD0;
+};
+
+float4 main( PS_IN In ) : COLOR
+{
+    float4 finalColor = tex2D(ColorTexture, In.UV);
+	clip(finalColor.a < 0.1f ? -1 : 1);
+	return finalColor;
+}
